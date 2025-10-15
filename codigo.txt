@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero = 10;
+    float resultado = numero + 2.5;
+    if (resultado > 5 && numero != 0) {
+        cout << "Resultado válido" << endl;
+    }
+    return 0;
+}
